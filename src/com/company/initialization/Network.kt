@@ -19,6 +19,7 @@ class Network() {
 
     fun start(number: Int) {
         inputLayer.start(intToBinaryString(number))
+        println(outputLayer.getResult())
     }
 
     fun startWithCurrentInput() {

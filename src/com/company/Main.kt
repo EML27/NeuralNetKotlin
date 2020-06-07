@@ -13,13 +13,13 @@ fun main() {
 //    var net = NetworkCreator().create()
 //    writeNet(net)
 
-//    val net = readNet()
-//    train(net, 100000)
-//    writeNet(net)
-
     val net = readNet()
-    net.start(1)
-    println(net.getResult())
+    train(net, 10000)
+    writeNet(net)
+    test(net)
+//    val net = readNet()
+//    net.start(1)
+//    println(net.getResult())
 }
 
 fun writeNet(net: Network) {
@@ -33,6 +33,65 @@ fun readNet(): Network {
     val res = xmld.readObject() as Network
     xmld.close()
     return res
+}
+
+fun test(net: Network) {
+    net.start(25)
+    if (net.getResult() == 0) {
+        println("Pass")
+    } else {
+        println("Not passed")
+    }
+    net.clear()
+    net.start(63)
+    if (net.getResult() == 1) {
+        println("Pass")
+    } else {
+        println("Not passed")
+    }
+    net.clear()
+    net.start(6)
+    if (net.getResult() == 1) {
+        println("Pass")
+    } else {
+        println("Not passed")
+    }
+    net.clear()
+    net.start(93)
+    if (net.getResult() == 1) {
+        println("Pass")
+    } else {
+        println("Not passed")
+    }
+    net.clear()
+    net.start(69)
+    if (net.getResult() == 2) {
+        println("Pass")
+    } else {
+        println("Not passed")
+    }
+    net.clear()
+    net.start(84)
+    if (net.getResult() == 2) {
+        println("Pass")
+    } else {
+        println("Not passed")
+    }
+    net.clear()
+    net.start(68)
+    if (net.getResult() == 3) {
+        println("Pass")
+    } else {
+        println("Not passed")
+    }
+    net.clear()
+    net.start(103)
+    if (net.getResult() == 1) {
+        println("Pass")
+    } else {
+        println("Not passed")
+    }
+    net.clear()
 }
 
 fun train(net: Network, repeat: Int) {
@@ -50,6 +109,9 @@ fun train(net: Network, repeat: Int) {
         }
         println("==================\nlearning: $number, $wanted ")
         net.learn(number, wanted)
+        net.clear()
+        net.start(number)
+        println("starting after learn: num: $number, result: ${net.getResult()}, waited: $wanted")
         net.clear()
     }
 }

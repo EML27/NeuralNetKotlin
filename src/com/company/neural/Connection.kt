@@ -32,7 +32,7 @@ class Connection() {
         this.weight = weight + 0.1
         net.startWithCurrentInput()
         val e1 = net.outputLayer.costFun(wanted)
-        val res = (e0 - e1) / 0.1
+        val res = (e1 - e0) / 0.1
         weight = mem
         return res
     }

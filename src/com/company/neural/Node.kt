@@ -13,6 +13,7 @@ class Node {
     var inputConnections = ArrayList<Connection>()
     var outputConnections = ArrayList<Connection>()
 
+    var bias = roundTo100th(Math.random() * 10 - 5)
     fun addOutConnection(connection: Connection) {
         outputConnections.add(connection)
     }
@@ -26,6 +27,7 @@ class Node {
         for (connection in inputConnections) {
             value += connection.fromNode.value * connection.weight
         }
+        value += bias
         value = sigmoid(value)
         value = roundTo100th(value)
         return value
@@ -35,11 +37,26 @@ class Node {
         for (connection in inputConnections) {
             connection.learn(wanted, net)
         }
-
+        biasLearn(wanted, net)
     }
 
     fun clear() {
         value = 0.0
+    }
+
+    fun biasLearn(wanted: String, net: Network) {
+        val mem = bias
+
+        net.startWithCurrentInput()
+        val e0 = net.outputLayer.costFun(wanted)
+        bias += 0.1
+        net.startWithCurrentInput()
+        val e1 = net.outputLayer.costFun(wanted)
+
+        bias = mem
+        bias -= (e1 - e0) / 0.1
+        bias = roundTo100th(bias)
+        println("bias changed: $mem to $bias")
     }
 
 //    fun guessForBackPropagnation(): Double {

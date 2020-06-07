@@ -34,8 +34,8 @@ class Layer() {
     fun guess() {
         for (node in nodes) {
             node.guess()
-            println("Node activation: " + node.value)
         }
+        println(nodes.map { node -> node.value })
         next?.guess()
     }
 
@@ -48,8 +48,10 @@ class Layer() {
 //    }
 
     fun learn(wanted: String, net: Network) {
-
-        prev?.learn(wanted,net)
+        for (node in nodes) {
+            node.learn(wanted, net)
+        }
+        prev?.learn(wanted, net)
     }
 
     fun start(binary: String) {
@@ -76,7 +78,7 @@ class Layer() {
     fun costFun(wanted: String): Double {
         var sum = 0.0
         for (i in wanted.indices) {
-            sum += (wanted.reversed()[i].toDouble() - nodes[nodes.size - i - 1].value).pow(2)
+            sum += (wanted.reversed()[i].toDouble()-48 - nodes[nodes.size - i - 1].value).pow(2)
         }
         return sum / nodes.size
     }
