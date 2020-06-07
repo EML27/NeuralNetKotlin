@@ -48,9 +48,7 @@ class Layer() {
 //    }
 
     fun learn(wanted: String, net: Network) {
-        for (i in wanted.indices) {
-            nodes[nodes.size - i - 1].learn(wanted, net)
-        }
+
         prev?.learn(wanted,net)
     }
 

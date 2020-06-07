@@ -85,6 +85,9 @@
                                                  <object idref="Node2"/>
                                                 </void>
                                                </void>
+                                               <void property="weight">
+                                                <double>0.18</double>
+                                               </void>
                                               </object>
                                              </void>
                                              <void method="add">
@@ -121,6 +124,9 @@
                                                        <object idref="Node6"/>
                                                       </void>
                                                      </void>
+                                                     <void property="weight">
+                                                      <double>0.13</double>
+                                                     </void>
                                                     </object>
                                                    </void>
                                                    <void method="add">
@@ -150,6 +156,9 @@
                                                              <object idref="Node2"/>
                                                             </void>
                                                            </void>
+                                                           <void property="weight">
+                                                            <double>0.12</double>
+                                                           </void>
                                                           </object>
                                                          </void>
                                                          <void method="add">
@@ -167,6 +176,9 @@
                                                              <object idref="Connection10"/>
                                                              <object idref="Node4"/>
                                                             </void>
+                                                           </void>
+                                                           <void property="weight">
+                                                            <double>-0.68</double>
                                                            </void>
                                                           </object>
                                                          </void>
@@ -204,6 +216,9 @@
                                                                    <object idref="Node8"/>
                                                                   </void>
                                                                  </void>
+                                                                 <void property="weight">
+                                                                  <double>0.61</double>
+                                                                 </void>
                                                                 </object>
                                                                </void>
                                                                <void method="add">
@@ -221,6 +236,9 @@
                                                                    <object idref="Connection13"/>
                                                                    <object idref="Node8"/>
                                                                   </void>
+                                                                 </void>
+                                                                 <void property="weight">
+                                                                  <double>-0.6</double>
                                                                  </void>
                                                                 </object>
                                                                </void>
@@ -251,6 +269,9 @@
                                                                          <object idref="Node2"/>
                                                                         </void>
                                                                        </void>
+                                                                       <void property="weight">
+                                                                        <double>-0.79</double>
+                                                                       </void>
                                                                       </object>
                                                                      </void>
                                                                      <void method="add">
@@ -269,6 +290,9 @@
                                                                          <object idref="Node4"/>
                                                                         </void>
                                                                        </void>
+                                                                       <void property="weight">
+                                                                        <double>-0.56</double>
+                                                                       </void>
                                                                       </object>
                                                                      </void>
                                                                      <void method="add">
@@ -286,6 +310,9 @@
                                                                          <object idref="Connection17"/>
                                                                          <object idref="Node6"/>
                                                                         </void>
+                                                                       </void>
+                                                                       <void property="weight">
+                                                                        <double>-0.94</double>
                                                                        </void>
                                                                       </object>
                                                                      </void>
@@ -323,6 +350,9 @@
                                                                                <object idref="Node10"/>
                                                                               </void>
                                                                              </void>
+                                                                             <void property="weight">
+                                                                              <double>-0.36</double>
+                                                                             </void>
                                                                             </object>
                                                                            </void>
                                                                            <void method="add">
@@ -341,6 +371,9 @@
                                                                                <object idref="Node10"/>
                                                                               </void>
                                                                              </void>
+                                                                             <void property="weight">
+                                                                              <double>-0.95</double>
+                                                                             </void>
                                                                             </object>
                                                                            </void>
                                                                            <void method="add">
@@ -358,6 +391,9 @@
                                                                                <object idref="Connection21"/>
                                                                                <object idref="Node10"/>
                                                                               </void>
+                                                                             </void>
+                                                                             <void property="weight">
+                                                                              <double>-0.08</double>
                                                                              </void>
                                                                             </object>
                                                                            </void>
@@ -388,6 +424,9 @@
                                                                                      <object idref="Node2"/>
                                                                                     </void>
                                                                                    </void>
+                                                                                   <void property="weight">
+                                                                                    <double>0.41</double>
+                                                                                   </void>
                                                                                   </object>
                                                                                  </void>
                                                                                  <void method="add">
@@ -405,6 +444,9 @@
                                                                                      <object idref="Connection24"/>
                                                                                      <object idref="Node4"/>
                                                                                     </void>
+                                                                                   </void>
+                                                                                   <void property="weight">
+                                                                                    <double>-0.99</double>
                                                                                    </void>
                                                                                   </object>
                                                                                  </void>
@@ -424,6 +466,9 @@
                                                                                      <object idref="Node6"/>
                                                                                     </void>
                                                                                    </void>
+                                                                                   <void property="weight">
+                                                                                    <double>0.88</double>
+                                                                                   </void>
                                                                                   </object>
                                                                                  </void>
                                                                                  <void method="add">
@@ -441,6 +486,9 @@
                                                                                      <object idref="Connection26"/>
                                                                                      <object idref="Node8"/>
                                                                                     </void>
+                                                                                   </void>
+                                                                                   <void property="weight">
+                                                                                    <double>0.15</double>
                                                                                    </void>
                                                                                   </object>
                                                                                  </void>
@@ -478,6 +526,9 @@
                                                                                            <object idref="Node12"/>
                                                                                           </void>
                                                                                          </void>
+                                                                                         <void property="weight">
+                                                                                          <double>0.72</double>
+                                                                                         </void>
                                                                                         </object>
                                                                                        </void>
                                                                                        <void method="add">
@@ -495,6 +546,9 @@
                                                                                            <object idref="Connection29"/>
                                                                                            <object idref="Node12"/>
                                                                                           </void>
+                                                                                         </void>
+                                                                                         <void property="weight">
+                                                                                          <double>-0.52</double>
                                                                                          </void>
                                                                                         </object>
                                                                                        </void>
@@ -514,6 +568,9 @@
                                                                                            <object idref="Node12"/>
                                                                                           </void>
                                                                                          </void>
+                                                                                         <void property="weight">
+                                                                                          <double>-0.21</double>
+                                                                                         </void>
                                                                                         </object>
                                                                                        </void>
                                                                                        <void method="add">
@@ -531,6 +588,9 @@
                                                                                            <object idref="Connection31"/>
                                                                                            <object idref="Node12"/>
                                                                                           </void>
+                                                                                         </void>
+                                                                                         <void property="weight">
+                                                                                          <double>-0.96</double>
                                                                                          </void>
                                                                                         </object>
                                                                                        </void>
@@ -561,6 +621,9 @@
                                                                                                  <object idref="Node2"/>
                                                                                                 </void>
                                                                                                </void>
+                                                                                               <void property="weight">
+                                                                                                <double>0.85</double>
+                                                                                               </void>
                                                                                               </object>
                                                                                              </void>
                                                                                              <void method="add">
@@ -578,6 +641,9 @@
                                                                                                  <object idref="Connection34"/>
                                                                                                  <object idref="Node4"/>
                                                                                                 </void>
+                                                                                               </void>
+                                                                                               <void property="weight">
+                                                                                                <double>0.95</double>
                                                                                                </void>
                                                                                               </object>
                                                                                              </void>
@@ -597,6 +663,9 @@
                                                                                                  <object idref="Node6"/>
                                                                                                 </void>
                                                                                                </void>
+                                                                                               <void property="weight">
+                                                                                                <double>0.19</double>
+                                                                                               </void>
                                                                                               </object>
                                                                                              </void>
                                                                                              <void method="add">
@@ -615,6 +684,9 @@
                                                                                                  <object idref="Node8"/>
                                                                                                 </void>
                                                                                                </void>
+                                                                                               <void property="weight">
+                                                                                                <double>0.83</double>
+                                                                                               </void>
                                                                                               </object>
                                                                                              </void>
                                                                                              <void method="add">
@@ -632,6 +704,9 @@
                                                                                                  <object idref="Connection37"/>
                                                                                                  <object idref="Node10"/>
                                                                                                 </void>
+                                                                                               </void>
+                                                                                               <void property="weight">
+                                                                                                <double>-0.46</double>
                                                                                                </void>
                                                                                               </object>
                                                                                              </void>
@@ -669,6 +744,9 @@
                                                                                                        <object idref="Node14"/>
                                                                                                       </void>
                                                                                                      </void>
+                                                                                                     <void property="weight">
+                                                                                                      <double>0.04</double>
+                                                                                                     </void>
                                                                                                     </object>
                                                                                                    </void>
                                                                                                    <void method="add">
@@ -686,6 +764,9 @@
                                                                                                        <object idref="Connection40"/>
                                                                                                        <object idref="Node14"/>
                                                                                                       </void>
+                                                                                                     </void>
+                                                                                                     <void property="weight">
+                                                                                                      <double>0.93</double>
                                                                                                      </void>
                                                                                                     </object>
                                                                                                    </void>
@@ -705,6 +786,9 @@
                                                                                                        <object idref="Node14"/>
                                                                                                       </void>
                                                                                                      </void>
+                                                                                                     <void property="weight">
+                                                                                                      <double>-0.7</double>
+                                                                                                     </void>
                                                                                                     </object>
                                                                                                    </void>
                                                                                                    <void method="add">
@@ -723,6 +807,9 @@
                                                                                                        <object idref="Node14"/>
                                                                                                       </void>
                                                                                                      </void>
+                                                                                                     <void property="weight">
+                                                                                                      <double>0.42</double>
+                                                                                                     </void>
                                                                                                     </object>
                                                                                                    </void>
                                                                                                    <void method="add">
@@ -740,6 +827,9 @@
                                                                                                        <object idref="Connection43"/>
                                                                                                        <object idref="Node14"/>
                                                                                                       </void>
+                                                                                                     </void>
+                                                                                                     <void property="weight">
+                                                                                                      <double>0.7</double>
                                                                                                      </void>
                                                                                                     </object>
                                                                                                    </void>
@@ -770,6 +860,9 @@
                                                                                                              <object idref="Node2"/>
                                                                                                             </void>
                                                                                                            </void>
+                                                                                                           <void property="weight">
+                                                                                                            <double>0.02</double>
+                                                                                                           </void>
                                                                                                           </object>
                                                                                                          </void>
                                                                                                          <void method="add">
@@ -787,6 +880,9 @@
                                                                                                              <object idref="Connection46"/>
                                                                                                              <object idref="Node4"/>
                                                                                                             </void>
+                                                                                                           </void>
+                                                                                                           <void property="weight">
+                                                                                                            <double>0.53</double>
                                                                                                            </void>
                                                                                                           </object>
                                                                                                          </void>
@@ -806,6 +902,9 @@
                                                                                                              <object idref="Node6"/>
                                                                                                             </void>
                                                                                                            </void>
+                                                                                                           <void property="weight">
+                                                                                                            <double>0.72</double>
+                                                                                                           </void>
                                                                                                           </object>
                                                                                                          </void>
                                                                                                          <void method="add">
@@ -823,6 +922,9 @@
                                                                                                              <object idref="Connection48"/>
                                                                                                              <object idref="Node8"/>
                                                                                                             </void>
+                                                                                                           </void>
+                                                                                                           <void property="weight">
+                                                                                                            <double>0.53</double>
                                                                                                            </void>
                                                                                                           </object>
                                                                                                          </void>
@@ -842,6 +944,9 @@
                                                                                                              <object idref="Node10"/>
                                                                                                             </void>
                                                                                                            </void>
+                                                                                                           <void property="weight">
+                                                                                                            <double>-0.12</double>
+                                                                                                           </void>
                                                                                                           </object>
                                                                                                          </void>
                                                                                                          <void method="add">
@@ -860,6 +965,9 @@
                                                                                                              <object idref="Node12"/>
                                                                                                             </void>
                                                                                                            </void>
+                                                                                                           <void property="weight">
+                                                                                                            <double>0.58</double>
+                                                                                                           </void>
                                                                                                           </object>
                                                                                                          </void>
                                                                                                          <void method="add">
@@ -875,6 +983,9 @@
                                                                                                        <object idref="Connection44"/>
                                                                                                        <object idref="Node14"/>
                                                                                                       </void>
+                                                                                                     </void>
+                                                                                                     <void property="weight">
+                                                                                                      <double>0.94</double>
                                                                                                      </void>
                                                                                                     </object>
                                                                                                    </void>
@@ -902,6 +1013,9 @@
                                                                                                              <object idref="Node2"/>
                                                                                                             </void>
                                                                                                            </void>
+                                                                                                           <void property="weight">
+                                                                                                            <double>0.92</double>
+                                                                                                           </void>
                                                                                                           </object>
                                                                                                          </void>
                                                                                                          <void method="add">
@@ -919,6 +1033,9 @@
                                                                                                              <object idref="Connection53"/>
                                                                                                              <object idref="Node4"/>
                                                                                                             </void>
+                                                                                                           </void>
+                                                                                                           <void property="weight">
+                                                                                                            <double>-0.91</double>
                                                                                                            </void>
                                                                                                           </object>
                                                                                                          </void>
@@ -938,6 +1055,9 @@
                                                                                                              <object idref="Node6"/>
                                                                                                             </void>
                                                                                                            </void>
+                                                                                                           <void property="weight">
+                                                                                                            <double>-0.09</double>
+                                                                                                           </void>
                                                                                                           </object>
                                                                                                          </void>
                                                                                                          <void method="add">
@@ -955,6 +1075,9 @@
                                                                                                              <object idref="Connection55"/>
                                                                                                              <object idref="Node8"/>
                                                                                                             </void>
+                                                                                                           </void>
+                                                                                                           <void property="weight">
+                                                                                                            <double>-0.75</double>
                                                                                                            </void>
                                                                                                           </object>
                                                                                                          </void>
@@ -974,6 +1097,9 @@
                                                                                                              <object idref="Node10"/>
                                                                                                             </void>
                                                                                                            </void>
+                                                                                                           <void property="weight">
+                                                                                                            <double>0.32</double>
+                                                                                                           </void>
                                                                                                           </object>
                                                                                                          </void>
                                                                                                          <void method="add">
@@ -992,6 +1118,9 @@
                                                                                                              <object idref="Node12"/>
                                                                                                             </void>
                                                                                                            </void>
+                                                                                                           <void property="weight">
+                                                                                                            <double>0.42</double>
+                                                                                                           </void>
                                                                                                           </object>
                                                                                                          </void>
                                                                                                          <void method="add">
@@ -1007,6 +1136,9 @@
                                                                                                        <object idref="Connection51"/>
                                                                                                        <object idref="Node14"/>
                                                                                                       </void>
+                                                                                                     </void>
+                                                                                                     <void property="weight">
+                                                                                                      <double>0.61</double>
                                                                                                      </void>
                                                                                                     </object>
                                                                                                    </void>
@@ -1034,6 +1166,9 @@
                                                                                                              <object idref="Node2"/>
                                                                                                             </void>
                                                                                                            </void>
+                                                                                                           <void property="weight">
+                                                                                                            <double>-0.19</double>
+                                                                                                           </void>
                                                                                                           </object>
                                                                                                          </void>
                                                                                                          <void method="add">
@@ -1051,6 +1186,9 @@
                                                                                                              <object idref="Connection60"/>
                                                                                                              <object idref="Node4"/>
                                                                                                             </void>
+                                                                                                           </void>
+                                                                                                           <void property="weight">
+                                                                                                            <double>0.01</double>
                                                                                                            </void>
                                                                                                           </object>
                                                                                                          </void>
@@ -1070,6 +1208,9 @@
                                                                                                              <object idref="Node6"/>
                                                                                                             </void>
                                                                                                            </void>
+                                                                                                           <void property="weight">
+                                                                                                            <double>0.27</double>
+                                                                                                           </void>
                                                                                                           </object>
                                                                                                          </void>
                                                                                                          <void method="add">
@@ -1087,6 +1228,9 @@
                                                                                                              <object idref="Connection62"/>
                                                                                                              <object idref="Node8"/>
                                                                                                             </void>
+                                                                                                           </void>
+                                                                                                           <void property="weight">
+                                                                                                            <double>0.76</double>
                                                                                                            </void>
                                                                                                           </object>
                                                                                                          </void>
@@ -1106,6 +1250,9 @@
                                                                                                              <object idref="Node10"/>
                                                                                                             </void>
                                                                                                            </void>
+                                                                                                           <void property="weight">
+                                                                                                            <double>-0.34</double>
+                                                                                                           </void>
                                                                                                           </object>
                                                                                                          </void>
                                                                                                          <void method="add">
@@ -1124,6 +1271,9 @@
                                                                                                              <object idref="Node12"/>
                                                                                                             </void>
                                                                                                            </void>
+                                                                                                           <void property="weight">
+                                                                                                            <double>0.94</double>
+                                                                                                           </void>
                                                                                                           </object>
                                                                                                          </void>
                                                                                                          <void method="add">
@@ -1139,6 +1289,9 @@
                                                                                                        <object idref="Connection58"/>
                                                                                                        <object idref="Node14"/>
                                                                                                       </void>
+                                                                                                     </void>
+                                                                                                     <void property="weight">
+                                                                                                      <double>-0.71</double>
                                                                                                      </void>
                                                                                                     </object>
                                                                                                    </void>
@@ -1159,6 +1312,9 @@
                                                                                                        <object idref="Connection65"/>
                                                                                                        <object idref="Node1"/>
                                                                                                       </void>
+                                                                                                     </void>
+                                                                                                     <void property="weight">
+                                                                                                      <double>0.95</double>
                                                                                                      </void>
                                                                                                     </object>
                                                                                                    </void>
@@ -1193,6 +1349,9 @@
                                                                                                              <object idref="Node18"/>
                                                                                                             </void>
                                                                                                            </void>
+                                                                                                           <void property="weight">
+                                                                                                            <double>-0.8</double>
+                                                                                                           </void>
                                                                                                           </object>
                                                                                                          </void>
                                                                                                          <void method="add">
@@ -1210,6 +1369,9 @@
                                                                                                              <object idref="Connection68"/>
                                                                                                              <object idref="Node18"/>
                                                                                                             </void>
+                                                                                                           </void>
+                                                                                                           <void property="weight">
+                                                                                                            <double>-0.79</double>
                                                                                                            </void>
                                                                                                           </object>
                                                                                                          </void>
@@ -1229,6 +1391,9 @@
                                                                                                              <object idref="Node18"/>
                                                                                                             </void>
                                                                                                            </void>
+                                                                                                           <void property="weight">
+                                                                                                            <double>-0.44</double>
+                                                                                                           </void>
                                                                                                           </object>
                                                                                                          </void>
                                                                                                          <void method="add">
@@ -1246,6 +1411,9 @@
                                                                                                              <object idref="Connection70"/>
                                                                                                              <object idref="Node18"/>
                                                                                                             </void>
+                                                                                                           </void>
+                                                                                                           <void property="weight">
+                                                                                                            <double>0.53</double>
                                                                                                            </void>
                                                                                                           </object>
                                                                                                          </void>
@@ -1265,6 +1433,9 @@
                                                                                                              <object idref="Node18"/>
                                                                                                             </void>
                                                                                                            </void>
+                                                                                                           <void property="weight">
+                                                                                                            <double>-0.14</double>
+                                                                                                           </void>
                                                                                                           </object>
                                                                                                          </void>
                                                                                                          <void method="add">
@@ -1282,6 +1453,9 @@
                                                                                                              <object idref="Connection72"/>
                                                                                                              <object idref="Node18"/>
                                                                                                             </void>
+                                                                                                           </void>
+                                                                                                           <void property="weight">
+                                                                                                            <double>-0.87</double>
                                                                                                            </void>
                                                                                                           </object>
                                                                                                          </void>
@@ -1305,6 +1479,9 @@
                                                                                                              <object idref="Connection73"/>
                                                                                                              <object idref="Node0"/>
                                                                                                             </void>
+                                                                                                           </void>
+                                                                                                           <void property="weight">
+                                                                                                            <double>-0.22</double>
                                                                                                            </void>
                                                                                                           </object>
                                                                                                          </void>
@@ -1339,6 +1516,9 @@
                                                                                                                    <object idref="Node19"/>
                                                                                                                   </void>
                                                                                                                  </void>
+                                                                                                                 <void property="weight">
+                                                                                                                  <double>0.7</double>
+                                                                                                                 </void>
                                                                                                                 </object>
                                                                                                                </void>
                                                                                                                <void method="add">
@@ -1368,6 +1548,9 @@
                                                                                                                          <object idref="Node20"/>
                                                                                                                         </void>
                                                                                                                        </void>
+                                                                                                                       <void property="weight">
+                                                                                                                        <double>-0.09</double>
+                                                                                                                       </void>
                                                                                                                       </object>
                                                                                                                      </void>
                                                                                                                      <void method="add">
@@ -1385,6 +1568,9 @@
                                                                                                                          <object idref="Connection78"/>
                                                                                                                          <object idref="Node20"/>
                                                                                                                         </void>
+                                                                                                                       </void>
+                                                                                                                       <void property="weight">
+                                                                                                                        <double>-0.21</double>
                                                                                                                        </void>
                                                                                                                       </object>
                                                                                                                      </void>
@@ -1404,6 +1590,9 @@
                                                                                                                          <object idref="Node20"/>
                                                                                                                         </void>
                                                                                                                        </void>
+                                                                                                                       <void property="weight">
+                                                                                                                        <double>0.36</double>
+                                                                                                                       </void>
                                                                                                                       </object>
                                                                                                                      </void>
                                                                                                                      <void method="add">
@@ -1421,6 +1610,9 @@
                                                                                                                          <object idref="Connection80"/>
                                                                                                                          <object idref="Node20"/>
                                                                                                                         </void>
+                                                                                                                       </void>
+                                                                                                                       <void property="weight">
+                                                                                                                        <double>-0.24</double>
                                                                                                                        </void>
                                                                                                                       </object>
                                                                                                                      </void>
@@ -1440,6 +1632,9 @@
                                                                                                                          <object idref="Node20"/>
                                                                                                                         </void>
                                                                                                                        </void>
+                                                                                                                       <void property="weight">
+                                                                                                                        <double>-0.71</double>
+                                                                                                                       </void>
                                                                                                                       </object>
                                                                                                                      </void>
                                                                                                                      <void method="add">
@@ -1458,6 +1653,9 @@
                                                                                                                          <object idref="Node20"/>
                                                                                                                         </void>
                                                                                                                        </void>
+                                                                                                                       <void property="weight">
+                                                                                                                        <double>-0.98</double>
+                                                                                                                       </void>
                                                                                                                       </object>
                                                                                                                      </void>
                                                                                                                      <void method="add">
@@ -1475,6 +1673,9 @@
                                                                                                                          <object idref="Connection83"/>
                                                                                                                          <object idref="Node20"/>
                                                                                                                         </void>
+                                                                                                                       </void>
+                                                                                                                       <void property="weight">
+                                                                                                                        <double>0.09</double>
                                                                                                                        </void>
                                                                                                                       </object>
                                                                                                                      </void>
@@ -1495,6 +1696,9 @@
                                                                                                                          <object idref="Connection84"/>
                                                                                                                          <object idref="Node0"/>
                                                                                                                         </void>
+                                                                                                                       </void>
+                                                                                                                       <void property="weight">
+                                                                                                                        <double>-0.1</double>
                                                                                                                        </void>
                                                                                                                       </object>
                                                                                                                      </void>
@@ -1532,6 +1736,9 @@
                                                                                                                                <object idref="Node21"/>
                                                                                                                               </void>
                                                                                                                              </void>
+                                                                                                                             <void property="weight">
+                                                                                                                              <double>0.1</double>
+                                                                                                                             </void>
                                                                                                                             </object>
                                                                                                                            </void>
                                                                                                                            <void method="add">
@@ -1549,6 +1756,9 @@
                                                                                                                                <object idref="Connection87"/>
                                                                                                                                <object idref="Node21"/>
                                                                                                                               </void>
+                                                                                                                             </void>
+                                                                                                                             <void property="weight">
+                                                                                                                              <double>-0.55</double>
                                                                                                                              </void>
                                                                                                                             </object>
                                                                                                                            </void>
@@ -1579,6 +1789,9 @@
                                                                                                                                      <object idref="Node22"/>
                                                                                                                                     </void>
                                                                                                                                    </void>
+                                                                                                                                   <void property="weight">
+                                                                                                                                    <double>-0.71</double>
+                                                                                                                                   </void>
                                                                                                                                   </object>
                                                                                                                                  </void>
                                                                                                                                  <void method="add">
@@ -1596,6 +1809,9 @@
                                                                                                                                      <object idref="Connection90"/>
                                                                                                                                      <object idref="Node22"/>
                                                                                                                                     </void>
+                                                                                                                                   </void>
+                                                                                                                                   <void property="weight">
+                                                                                                                                    <double>0.44</double>
                                                                                                                                    </void>
                                                                                                                                   </object>
                                                                                                                                  </void>
@@ -1615,6 +1831,9 @@
                                                                                                                                      <object idref="Node22"/>
                                                                                                                                     </void>
                                                                                                                                    </void>
+                                                                                                                                   <void property="weight">
+                                                                                                                                    <double>-0.93</double>
+                                                                                                                                   </void>
                                                                                                                                   </object>
                                                                                                                                  </void>
                                                                                                                                  <void method="add">
@@ -1632,6 +1851,9 @@
                                                                                                                                      <object idref="Connection92"/>
                                                                                                                                      <object idref="Node22"/>
                                                                                                                                     </void>
+                                                                                                                                   </void>
+                                                                                                                                   <void property="weight">
+                                                                                                                                    <double>0.95</double>
                                                                                                                                    </void>
                                                                                                                                   </object>
                                                                                                                                  </void>
@@ -1651,6 +1873,9 @@
                                                                                                                                      <object idref="Node22"/>
                                                                                                                                     </void>
                                                                                                                                    </void>
+                                                                                                                                   <void property="weight">
+                                                                                                                                    <double>0.9</double>
+                                                                                                                                   </void>
                                                                                                                                   </object>
                                                                                                                                  </void>
                                                                                                                                  <void method="add">
@@ -1669,6 +1894,9 @@
                                                                                                                                      <object idref="Node22"/>
                                                                                                                                     </void>
                                                                                                                                    </void>
+                                                                                                                                   <void property="weight">
+                                                                                                                                    <double>-0.47</double>
+                                                                                                                                   </void>
                                                                                                                                   </object>
                                                                                                                                  </void>
                                                                                                                                  <void method="add">
@@ -1686,6 +1914,9 @@
                                                                                                                                      <object idref="Connection95"/>
                                                                                                                                      <object idref="Node22"/>
                                                                                                                                     </void>
+                                                                                                                                   </void>
+                                                                                                                                   <void property="weight">
+                                                                                                                                    <double>-0.84</double>
                                                                                                                                    </void>
                                                                                                                                   </object>
                                                                                                                                  </void>
@@ -1707,6 +1938,9 @@
                                                                                                                                      <object idref="Node0"/>
                                                                                                                                     </void>
                                                                                                                                    </void>
+                                                                                                                                   <void property="weight">
+                                                                                                                                    <double>0.83</double>
+                                                                                                                                   </void>
                                                                                                                                   </object>
                                                                                                                                  </void>
                                                                                                                                  <void method="add">
@@ -1725,6 +1959,9 @@
                                                                                                                                      <object idref="Node19"/>
                                                                                                                                     </void>
                                                                                                                                    </void>
+                                                                                                                                   <void property="weight">
+                                                                                                                                    <double>0.55</double>
+                                                                                                                                   </void>
                                                                                                                                   </object>
                                                                                                                                  </void>
                                                                                                                                  <void method="add">
@@ -1740,6 +1977,9 @@
                                                                                                                                <object idref="Connection88"/>
                                                                                                                                <object idref="Node21"/>
                                                                                                                               </void>
+                                                                                                                             </void>
+                                                                                                                             <void property="weight">
+                                                                                                                              <double>-0.44</double>
                                                                                                                              </void>
                                                                                                                             </object>
                                                                                                                            </void>
@@ -1767,6 +2007,9 @@
                                                                                                                                      <object idref="Node23"/>
                                                                                                                                     </void>
                                                                                                                                    </void>
+                                                                                                                                   <void property="weight">
+                                                                                                                                    <double>0.94</double>
+                                                                                                                                   </void>
                                                                                                                                   </object>
                                                                                                                                  </void>
                                                                                                                                  <void method="add">
@@ -1784,6 +2027,9 @@
                                                                                                                                      <object idref="Connection100"/>
                                                                                                                                      <object idref="Node23"/>
                                                                                                                                     </void>
+                                                                                                                                   </void>
+                                                                                                                                   <void property="weight">
+                                                                                                                                    <double>0.35</double>
                                                                                                                                    </void>
                                                                                                                                   </object>
                                                                                                                                  </void>
@@ -1803,6 +2049,9 @@
                                                                                                                                      <object idref="Node23"/>
                                                                                                                                     </void>
                                                                                                                                    </void>
+                                                                                                                                   <void property="weight">
+                                                                                                                                    <double>-0.54</double>
+                                                                                                                                   </void>
                                                                                                                                   </object>
                                                                                                                                  </void>
                                                                                                                                  <void method="add">
@@ -1820,6 +2069,9 @@
                                                                                                                                      <object idref="Connection102"/>
                                                                                                                                      <object idref="Node23"/>
                                                                                                                                     </void>
+                                                                                                                                   </void>
+                                                                                                                                   <void property="weight">
+                                                                                                                                    <double>-0.79</double>
                                                                                                                                    </void>
                                                                                                                                   </object>
                                                                                                                                  </void>
@@ -1839,6 +2091,9 @@
                                                                                                                                      <object idref="Node23"/>
                                                                                                                                     </void>
                                                                                                                                    </void>
+                                                                                                                                   <void property="weight">
+                                                                                                                                    <double>-0.99</double>
+                                                                                                                                   </void>
                                                                                                                                   </object>
                                                                                                                                  </void>
                                                                                                                                  <void method="add">
@@ -1857,6 +2112,9 @@
                                                                                                                                      <object idref="Node23"/>
                                                                                                                                     </void>
                                                                                                                                    </void>
+                                                                                                                                   <void property="weight">
+                                                                                                                                    <double>-0.18</double>
+                                                                                                                                   </void>
                                                                                                                                   </object>
                                                                                                                                  </void>
                                                                                                                                  <void method="add">
@@ -1874,6 +2132,9 @@
                                                                                                                                      <object idref="Connection105"/>
                                                                                                                                      <object idref="Node23"/>
                                                                                                                                     </void>
+                                                                                                                                   </void>
+                                                                                                                                   <void property="weight">
+                                                                                                                                    <double>-0.46</double>
                                                                                                                                    </void>
                                                                                                                                   </object>
                                                                                                                                  </void>
@@ -1895,6 +2156,9 @@
                                                                                                                                      <object idref="Node0"/>
                                                                                                                                     </void>
                                                                                                                                    </void>
+                                                                                                                                   <void property="weight">
+                                                                                                                                    <double>-0.73</double>
+                                                                                                                                   </void>
                                                                                                                                   </object>
                                                                                                                                  </void>
                                                                                                                                  <void method="add">
@@ -1913,6 +2177,9 @@
                                                                                                                                      <object idref="Node19"/>
                                                                                                                                     </void>
                                                                                                                                    </void>
+                                                                                                                                   <void property="weight">
+                                                                                                                                    <double>-0.82</double>
+                                                                                                                                   </void>
                                                                                                                                   </object>
                                                                                                                                  </void>
                                                                                                                                  <void method="add">
@@ -1928,6 +2195,9 @@
                                                                                                                                <object idref="Connection98"/>
                                                                                                                                <object idref="Node21"/>
                                                                                                                               </void>
+                                                                                                                             </void>
+                                                                                                                             <void property="weight">
+                                                                                                                              <double>-0.61</double>
                                                                                                                              </void>
                                                                                                                             </object>
                                                                                                                            </void>
@@ -1955,6 +2225,9 @@
                                                                                                                                      <object idref="Node24"/>
                                                                                                                                     </void>
                                                                                                                                    </void>
+                                                                                                                                   <void property="weight">
+                                                                                                                                    <double>0.14</double>
+                                                                                                                                   </void>
                                                                                                                                   </object>
                                                                                                                                  </void>
                                                                                                                                  <void method="add">
@@ -1972,6 +2245,9 @@
                                                                                                                                      <object idref="Connection110"/>
                                                                                                                                      <object idref="Node24"/>
                                                                                                                                     </void>
+                                                                                                                                   </void>
+                                                                                                                                   <void property="weight">
+                                                                                                                                    <double>-0.77</double>
                                                                                                                                    </void>
                                                                                                                                   </object>
                                                                                                                                  </void>
@@ -1991,6 +2267,9 @@
                                                                                                                                      <object idref="Node24"/>
                                                                                                                                     </void>
                                                                                                                                    </void>
+                                                                                                                                   <void property="weight">
+                                                                                                                                    <double>0.88</double>
+                                                                                                                                   </void>
                                                                                                                                   </object>
                                                                                                                                  </void>
                                                                                                                                  <void method="add">
@@ -2008,6 +2287,9 @@
                                                                                                                                      <object idref="Connection112"/>
                                                                                                                                      <object idref="Node24"/>
                                                                                                                                     </void>
+                                                                                                                                   </void>
+                                                                                                                                   <void property="weight">
+                                                                                                                                    <double>0.79</double>
                                                                                                                                    </void>
                                                                                                                                   </object>
                                                                                                                                  </void>
@@ -2027,6 +2309,9 @@
                                                                                                                                      <object idref="Node24"/>
                                                                                                                                     </void>
                                                                                                                                    </void>
+                                                                                                                                   <void property="weight">
+                                                                                                                                    <double>-0.29</double>
+                                                                                                                                   </void>
                                                                                                                                   </object>
                                                                                                                                  </void>
                                                                                                                                  <void method="add">
@@ -2045,6 +2330,9 @@
                                                                                                                                      <object idref="Node24"/>
                                                                                                                                     </void>
                                                                                                                                    </void>
+                                                                                                                                   <void property="weight">
+                                                                                                                                    <double>0.14</double>
+                                                                                                                                   </void>
                                                                                                                                   </object>
                                                                                                                                  </void>
                                                                                                                                  <void method="add">
@@ -2062,6 +2350,9 @@
                                                                                                                                      <object idref="Connection115"/>
                                                                                                                                      <object idref="Node24"/>
                                                                                                                                     </void>
+                                                                                                                                   </void>
+                                                                                                                                   <void property="weight">
+                                                                                                                                    <double>0.59</double>
                                                                                                                                    </void>
                                                                                                                                   </object>
                                                                                                                                  </void>
@@ -2083,6 +2374,9 @@
                                                                                                                                      <object idref="Node0"/>
                                                                                                                                     </void>
                                                                                                                                    </void>
+                                                                                                                                   <void property="weight">
+                                                                                                                                    <double>-0.66</double>
+                                                                                                                                   </void>
                                                                                                                                   </object>
                                                                                                                                  </void>
                                                                                                                                  <void method="add">
@@ -2101,6 +2395,9 @@
                                                                                                                                      <object idref="Node19"/>
                                                                                                                                     </void>
                                                                                                                                    </void>
+                                                                                                                                   <void property="weight">
+                                                                                                                                    <double>0.69</double>
+                                                                                                                                   </void>
                                                                                                                                   </object>
                                                                                                                                  </void>
                                                                                                                                  <void method="add">
@@ -2116,6 +2413,9 @@
                                                                                                                                <object idref="Connection108"/>
                                                                                                                                <object idref="Node21"/>
                                                                                                                               </void>
+                                                                                                                             </void>
+                                                                                                                             <void property="weight">
+                                                                                                                              <double>-0.76</double>
                                                                                                                              </void>
                                                                                                                             </object>
                                                                                                                            </void>
@@ -2143,6 +2443,9 @@
                                                                                                                                      <object idref="Node25"/>
                                                                                                                                     </void>
                                                                                                                                    </void>
+                                                                                                                                   <void property="weight">
+                                                                                                                                    <double>0.82</double>
+                                                                                                                                   </void>
                                                                                                                                   </object>
                                                                                                                                  </void>
                                                                                                                                  <void method="add">
@@ -2160,6 +2463,9 @@
                                                                                                                                      <object idref="Connection120"/>
                                                                                                                                      <object idref="Node25"/>
                                                                                                                                     </void>
+                                                                                                                                   </void>
+                                                                                                                                   <void property="weight">
+                                                                                                                                    <double>-0.27</double>
                                                                                                                                    </void>
                                                                                                                                   </object>
                                                                                                                                  </void>
@@ -2179,6 +2485,9 @@
                                                                                                                                      <object idref="Node25"/>
                                                                                                                                     </void>
                                                                                                                                    </void>
+                                                                                                                                   <void property="weight">
+                                                                                                                                    <double>-0.43</double>
+                                                                                                                                   </void>
                                                                                                                                   </object>
                                                                                                                                  </void>
                                                                                                                                  <void method="add">
@@ -2196,6 +2505,9 @@
                                                                                                                                      <object idref="Connection122"/>
                                                                                                                                      <object idref="Node25"/>
                                                                                                                                     </void>
+                                                                                                                                   </void>
+                                                                                                                                   <void property="weight">
+                                                                                                                                    <double>0.68</double>
                                                                                                                                    </void>
                                                                                                                                   </object>
                                                                                                                                  </void>
@@ -2215,6 +2527,9 @@
                                                                                                                                      <object idref="Node25"/>
                                                                                                                                     </void>
                                                                                                                                    </void>
+                                                                                                                                   <void property="weight">
+                                                                                                                                    <double>0.93</double>
+                                                                                                                                   </void>
                                                                                                                                   </object>
                                                                                                                                  </void>
                                                                                                                                  <void method="add">
@@ -2233,6 +2548,9 @@
                                                                                                                                      <object idref="Node25"/>
                                                                                                                                     </void>
                                                                                                                                    </void>
+                                                                                                                                   <void property="weight">
+                                                                                                                                    <double>-0.08</double>
+                                                                                                                                   </void>
                                                                                                                                   </object>
                                                                                                                                  </void>
                                                                                                                                  <void method="add">
@@ -2250,6 +2568,9 @@
                                                                                                                                      <object idref="Connection125"/>
                                                                                                                                      <object idref="Node25"/>
                                                                                                                                     </void>
+                                                                                                                                   </void>
+                                                                                                                                   <void property="weight">
+                                                                                                                                    <double>-0.35</double>
                                                                                                                                    </void>
                                                                                                                                   </object>
                                                                                                                                  </void>
@@ -2271,6 +2592,9 @@
                                                                                                                                      <object idref="Node0"/>
                                                                                                                                     </void>
                                                                                                                                    </void>
+                                                                                                                                   <void property="weight">
+                                                                                                                                    <double>0.12</double>
+                                                                                                                                   </void>
                                                                                                                                   </object>
                                                                                                                                  </void>
                                                                                                                                  <void method="add">
@@ -2289,6 +2613,9 @@
                                                                                                                                      <object idref="Node19"/>
                                                                                                                                     </void>
                                                                                                                                    </void>
+                                                                                                                                   <void property="weight">
+                                                                                                                                    <double>0.29</double>
+                                                                                                                                   </void>
                                                                                                                                   </object>
                                                                                                                                  </void>
                                                                                                                                  <void method="add">
@@ -2305,11 +2632,17 @@
                                                                                                                                <object idref="Node21"/>
                                                                                                                               </void>
                                                                                                                              </void>
+                                                                                                                             <void property="weight">
+                                                                                                                              <double>0.27</double>
+                                                                                                                             </void>
                                                                                                                             </object>
                                                                                                                            </void>
                                                                                                                           </void>
                                                                                                                          </object>
                                                                                                                         </void>
+                                                                                                                       </void>
+                                                                                                                       <void property="weight">
+                                                                                                                        <double>0.76</double>
                                                                                                                        </void>
                                                                                                                       </object>
                                                                                                                      </void>
@@ -2323,6 +2656,9 @@
                                                                                                                    <object idref="Connection76"/>
                                                                                                                    <object idref="Node19"/>
                                                                                                                   </void>
+                                                                                                                 </void>
+                                                                                                                 <void property="weight">
+                                                                                                                  <double>0.2</double>
                                                                                                                  </void>
                                                                                                                 </object>
                                                                                                                </void>
@@ -2342,6 +2678,9 @@
                                                                                                              </object>
                                                                                                             </void>
                                                                                                            </void>
+                                                                                                           <void property="weight">
+                                                                                                            <double>0.75</double>
+                                                                                                           </void>
                                                                                                           </object>
                                                                                                          </void>
                                                                                                          <void method="add">
@@ -2350,6 +2689,9 @@
                                                                                                         </void>
                                                                                                        </object>
                                                                                                       </void>
+                                                                                                     </void>
+                                                                                                     <void property="weight">
+                                                                                                      <double>0.1</double>
                                                                                                      </void>
                                                                                                     </object>
                                                                                                    </void>
@@ -2372,6 +2714,9 @@
                                                                                                  </object>
                                                                                                 </void>
                                                                                                </void>
+                                                                                               <void property="weight">
+                                                                                                <double>0.93</double>
+                                                                                               </void>
                                                                                               </object>
                                                                                              </void>
                                                                                             </void>
@@ -2384,6 +2729,9 @@
                                                                                            <object idref="Connection32"/>
                                                                                            <object idref="Node12"/>
                                                                                           </void>
+                                                                                         </void>
+                                                                                         <void property="weight">
+                                                                                          <double>0.96</double>
                                                                                          </void>
                                                                                         </object>
                                                                                        </void>
@@ -2414,6 +2762,9 @@
                                                                                            <object idref="Node1"/>
                                                                                           </void>
                                                                                          </void>
+                                                                                         <void property="weight">
+                                                                                          <double>-0.27</double>
+                                                                                         </void>
                                                                                         </object>
                                                                                        </void>
                                                                                        <void method="add">
@@ -2438,6 +2789,9 @@
                                                                                      </object>
                                                                                     </void>
                                                                                    </void>
+                                                                                   <void property="weight">
+                                                                                    <double>-0.35</double>
+                                                                                   </void>
                                                                                   </object>
                                                                                  </void>
                                                                                  <void method="add">
@@ -2453,6 +2807,9 @@
                                                                                <object idref="Connection22"/>
                                                                                <object idref="Node10"/>
                                                                               </void>
+                                                                             </void>
+                                                                             <void property="weight">
+                                                                              <double>0.54</double>
                                                                              </void>
                                                                             </object>
                                                                            </void>
@@ -2486,6 +2843,9 @@
                                                                                <object idref="Node1"/>
                                                                               </void>
                                                                              </void>
+                                                                             <void property="weight">
+                                                                              <double>-0.1</double>
+                                                                             </void>
                                                                             </object>
                                                                            </void>
                                                                            <void method="add">
@@ -2510,6 +2870,9 @@
                                                                          </object>
                                                                         </void>
                                                                        </void>
+                                                                       <void property="weight">
+                                                                        <double>-0.82</double>
+                                                                       </void>
                                                                       </object>
                                                                      </void>
                                                                      <void method="add">
@@ -2528,6 +2891,9 @@
                                                                    <object idref="Connection14"/>
                                                                    <object idref="Node8"/>
                                                                   </void>
+                                                                 </void>
+                                                                 <void property="weight">
+                                                                  <double>0.21</double>
                                                                  </void>
                                                                 </object>
                                                                </void>
@@ -2564,6 +2930,9 @@
                                                                    <object idref="Node1"/>
                                                                   </void>
                                                                  </void>
+                                                                 <void property="weight">
+                                                                  <double>-0.34</double>
+                                                                 </void>
                                                                 </object>
                                                                </void>
                                                                <void method="add">
@@ -2588,6 +2957,9 @@
                                                              </object>
                                                             </void>
                                                            </void>
+                                                           <void property="weight">
+                                                            <double>-0.1</double>
+                                                           </void>
                                                           </object>
                                                          </void>
                                                          <void method="add">
@@ -2609,6 +2981,9 @@
                                                        <object idref="Connection8"/>
                                                        <object idref="Node6"/>
                                                       </void>
+                                                     </void>
+                                                     <void property="weight">
+                                                      <double>-0.47</double>
                                                      </void>
                                                     </object>
                                                    </void>
@@ -2648,6 +3023,9 @@
                                                        <object idref="Node1"/>
                                                       </void>
                                                      </void>
+                                                     <void property="weight">
+                                                      <double>-0.07</double>
+                                                     </void>
                                                     </object>
                                                    </void>
                                                    <void method="add">
@@ -2671,6 +3049,9 @@
                                                   </void>
                                                  </object>
                                                 </void>
+                                               </void>
+                                               <void property="weight">
+                                                <double>-0.63</double>
                                                </void>
                                               </object>
                                              </void>
@@ -2696,6 +3077,9 @@
                                            <object idref="Connection4"/>
                                            <object idref="Node4"/>
                                           </void>
+                                         </void>
+                                         <void property="weight">
+                                          <double>-0.49</double>
                                          </void>
                                         </object>
                                        </void>
@@ -2738,6 +3122,9 @@
                                            <object idref="Node1"/>
                                           </void>
                                          </void>
+                                         <void property="weight">
+                                          <double>-0.27</double>
+                                         </void>
                                         </object>
                                        </void>
                                        <void method="add">
@@ -2761,6 +3148,9 @@
                                       </void>
                                      </object>
                                     </void>
+                                   </void>
+                                   <void property="weight">
+                                    <double>-0.09</double>
                                    </void>
                                   </object>
                                  </void>
@@ -2789,6 +3179,9 @@
                                <object idref="Connection2"/>
                                <object idref="Node2"/>
                               </void>
+                             </void>
+                             <void property="weight">
+                              <double>-0.12</double>
                              </void>
                             </object>
                            </void>
@@ -2850,6 +3243,9 @@
                          <object idref="Node1"/>
                         </void>
                        </void>
+                       <void property="weight">
+                        <double>0.16</double>
+                       </void>
                       </object>
                      </void>
                      <void method="add">
@@ -2891,6 +3287,9 @@
                    <object idref="Connection0"/>
                    <object idref="Node0"/>
                   </void>
+                 </void>
+                 <void property="weight">
+                  <double>0.71</double>
                  </void>
                 </object>
                </void>

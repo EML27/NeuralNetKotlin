@@ -13,12 +13,12 @@ fun main() {
 //    var net = NetworkCreator().create()
 //    writeNet(net)
 
-    val net = readNet()
-    train(net, 100)
+//    val net = readNet()
+//    train(net, 100000)
 //    writeNet(net)
 
-//    val net = readNet()
-    net.start(88)
+    val net = readNet()
+    net.start(1)
     println(net.getResult())
 }
 
