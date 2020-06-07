@@ -7,18 +7,22 @@ class Network() {
     lateinit var inputLayer: Layer
     lateinit var outputLayer: Layer
 
-    constructor(inputLayer: Layer, outputLayer: Layer): this() {
+    constructor(inputLayer: Layer, outputLayer: Layer) : this() {
         this.inputLayer = inputLayer
         this.outputLayer = outputLayer
     }
 
     fun learn(input: Int, wanted: Int) {
         start(input)
-        outputLayer.learn(intToBinaryString(wanted))
+        outputLayer.learn(intToBinaryString(wanted), this)
     }
 
     fun start(number: Int) {
         inputLayer.start(intToBinaryString(number))
+    }
+
+    fun startWithCurrentInput() {
+        inputLayer.startWCI()
     }
 
     fun clear() {

@@ -18,8 +18,8 @@ fun main() {
 //    writeNet(net)
 
 //    val net = readNet()
-//    net.start(88)
-//    println(net.getResult())
+    net.start(88)
+    println(net.getResult())
 }
 
 fun writeNet(net: Network) {

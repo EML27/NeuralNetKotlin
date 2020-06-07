@@ -1,5 +1,6 @@
 package com.company.neural
 
+import com.company.initialization.Network
 import java.util.*
 import kotlin.collections.ArrayList
 import kotlin.math.pow
@@ -30,27 +31,27 @@ class Node {
         return value
     }
 
-    fun learn(wanted: Double) {
+    fun learn(wanted: String, net: Network) {
         for (connection in inputConnections) {
-            connection.learn(wanted)
+            connection.learn(wanted, net)
         }
-        value = wanted
+
     }
 
     fun clear() {
         value = 0.0
     }
 
-    fun guessForBackPropagnation(): Double {
-        var res = 0.0
-        for (connection in outputConnections) {
-            res += connection.toNode.value * connection.weight
-        }
-        res = sigmoid(res)
-        res = roundTo100th(res)
-        println("Guessed for back propagnation: $res")
-        return res
-    }
+//    fun guessForBackPropagnation(): Double {
+//        var res = 0.0
+//        for (connection in outputConnections) {
+//            res += connection.toNode.value * connection.weight
+//        }
+//        res = sigmoid(res)
+//        res = roundTo100th(res)
+//        println("Guessed for back propagnation: $res")
+//        return res
+//    }
 }
 
 fun sigmoid(x: Double): Double {

@@ -1,5 +1,6 @@
 package com.company.neural
 
+import com.company.initialization.Network
 import kotlin.math.pow
 
 class Connection() {
@@ -15,21 +16,23 @@ class Connection() {
 
     var weight: Double = roundTo100th(Math.random() * 2 - 1)
     var learnRate: Double = 1.0
-    fun learn(y_wanted: Double) {
+
+    fun learn(y_wanted: String, net: Network) {
         println("Old weight: $weight")
-        weight -= (learnRate * errFun(y_wanted))
+        weight -= (learnRate * errFun(y_wanted, net))
         weight = roundTo100th(weight)
         println("New weight: $weight")
     }
 
-    private fun errFun(wanted: Double): Double {
+    private fun errFun(wanted: String, net: Network): Double {
         val mem = this.weight
-        this.weight = 0.0
-        val a0 = toNode.guess()
-        this.weight = 0.1
-        val a1 = toNode.guess()
 
-        val res = (lossFun(a1, wanted) - lossFun(a0, wanted)) / 0.1
+        net.startWithCurrentInput()
+        val e0 = net.outputLayer.costFun(wanted)
+        this.weight = weight + 0.1
+        net.startWithCurrentInput()
+        val e1 = net.outputLayer.costFun(wanted)
+        val res = (e0 - e1) / 0.1
         weight = mem
         return res
     }
